@@ -1,0 +1,1 @@
+1) Arrow functions doesn't have arguments and this , they work on the lexical env of outer fucntion or class or block
