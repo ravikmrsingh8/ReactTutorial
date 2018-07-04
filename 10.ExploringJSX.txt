@@ -1,3 +1,5 @@
 1) In JSX we can have only one root element , we can write like html into it
 2) to put variables into template we simple write them like {user.name} or {userName} etc
 3)JSX Supports Array, number and String. Objects booleans null undefined are ignored
+
+
