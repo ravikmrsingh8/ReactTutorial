@@ -1,0 +1,5 @@
+componentDidMount()
+componentDidUpdate(prevProps, prevState)
+componentWillUnmount()
+
+Check documentation for more details
