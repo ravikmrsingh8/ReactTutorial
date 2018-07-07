@@ -1,11 +1,29 @@
 {
-  "name": "indecision-app",
+  "name": "react-apps",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ravi",
   "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js  --out-file public/scripts/app.js --presets=env,react --watch"
+  },
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "global": "^4.3.2",
+    "live-server": "^1.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "validator": "^10.4.0",
+    "webpack": "^4.15.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
   }
 }

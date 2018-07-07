@@ -20,4 +20,34 @@ babel src/app.js --out-file=public/scripts/app.js --presets=env,react
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react  --watch
 
 
+yarn global remove babel-cli
+
+yarn global remove live-server
+or 
+npm uninstall -g live-server
+npm uninstall -g babel-cli
+
+//Creating an application
+#npm init
+#npm install --save babel-cli live-server
+#npm install --save webpack
+
+
+
+//Creating an application
+yarn init
+
+yarn add live-server
+yarn add webpack
+yarn add validator
+yarn add react react-dom
+yarn add babel-core babel-loader babel-cli
+yarn add babel-preset-react babel-preset-env
+
+//Runing server
+yarn run serve
+
+//watch changes and build
+yarn run build
+
 

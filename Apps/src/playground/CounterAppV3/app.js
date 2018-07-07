@@ -46,19 +46,12 @@ class Counter extends React.Component {
 
     onMinusOne(){
         console.log("minusOne");
-        this.setState((prevState)=>{
-            prevState.count -= 1;
-            return prevState;
-        });
+        this.setState((prevState)=>({count:prevState.count-1}));
     }
 
     OnClear(){
         console.log("clear");
-        this.setState(()=>{
-            return {
-                count: 0
-            };
-        });
+        this.setState(()=>({count:0}));
     }
 
     render() {
