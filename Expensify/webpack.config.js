@@ -7,7 +7,7 @@ console.log(path.join(CURRENT_DIR, 'node_modules'));
 
 module.exports = {
     mode: 'development',
-    entry: './src/IndecisionAppV5/app.js',
+    entry: './src/app/store/ExpenseStore.js',
     output: {
         path: path.join(CURRENT_DIR, 'public'),
         filename: "bundle.js"
@@ -28,6 +28,7 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     
     devServer: {
-        contentBase : path.join(__dirname , 'public')
+        contentBase : path.join(__dirname , 'public'),
+        historyApiFallback: true
     } 
 };

@@ -43,7 +43,9 @@ yarn add validator
 yarn add react react-dom
 yarn add babel-core babel-loader babel-cli
 yarn add babel-preset-react babel-preset-env
+yarn add webpack-dev-server
 
+yarn add babel-plugin-transform-class-properties
 //Runing server
 yarn run serve
 
@@ -51,3 +53,27 @@ yarn run serve
 yarn run build
 
 
+yarn add react-modal
+yarn add style-loader
+yarn add css-loader
+
+
+
+yarn add sass-loader
+yarn add node-sass
+
+yarn add normalize.css
+yarn add bootstrap
+
+
+
+npm install react-router-dom
+
+npm install file-loader
+npm install url-loader   // to load fonts
+
+
+
+npm install redux
+npm install redux
+npm install uuid

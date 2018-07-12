@@ -66,8 +66,7 @@ var Counter = function (_React$Component) {
         value: function onMinusOne() {
             console.log("minusOne");
             this.setState(function (prevState) {
-                prevState.count -= 1;
-                return prevState;
+                return { count: prevState.count - 1 };
             });
         }
     }, {
@@ -75,9 +74,7 @@ var Counter = function (_React$Component) {
         value: function OnClear() {
             console.log("clear");
             this.setState(function () {
-                return {
-                    count: 0
-                };
+                return { count: 0 };
             });
         }
     }, {

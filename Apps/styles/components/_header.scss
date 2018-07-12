@@ -1,0 +1,20 @@
+
+.header {
+    //border-radius: 5px;
+    background-color: $purple;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color:beige;
+}
+
+.header__title {
+    color:beige;
+    margin:0;
+}
+
+.header__subtitle {
+    color:beige;
+    line-height: 5px;
+    font-size: $mSize;
+    font-weight: 500;
+}

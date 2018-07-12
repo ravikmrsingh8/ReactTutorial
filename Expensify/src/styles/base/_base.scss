@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Helvetica,  Helvetica, sans-serif;
+    font-size: $mSize;
+    background-color: $bodyBackground;
+}
+
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0 $mSize;
+}
